@@ -1,0 +1,19 @@
+api = "0.9"
+
+[buildpack]
+id = "portersupport/heroku-buildpack-multi-procfile"
+version = "0.1.0"
+name = "Heroku Buildpack Multi-Procfile"
+homepage = "https://github.com/portersupport/heroku-buildpack-multi-procfile"
+
+[[buildpack.licenses]]
+type = "MIT"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
+
+[[stacks]]
+id = "io.buildpacks.stacks.bionic"
