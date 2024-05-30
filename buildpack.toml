@@ -4,7 +4,7 @@ api = "0.9"
 id = "portersupport/heroku-buildpack-multi-procfile"
 version = "0.1.0"
 name = "Heroku Buildpack Multi-Procfile"
-homepage = "https://github.com/portersupport/heroku-buildpack-multi-procfile"
+homepage = "https://github.com/edume/heroku-buildpack-multi-procfile"
 
 [[buildpack.licenses]]
 type = "MIT"
