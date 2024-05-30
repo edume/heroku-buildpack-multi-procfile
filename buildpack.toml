@@ -10,10 +10,4 @@ homepage = "https://github.com/portersupport/heroku-buildpack-multi-procfile"
 type = "MIT"
 
 [[stacks]]
-id = "heroku-18"
-
-[[stacks]]
-id = "heroku-20"
-
-[[stacks]]
-id = "io.buildpacks.stacks.bionic"
+id = "heroku-22"
