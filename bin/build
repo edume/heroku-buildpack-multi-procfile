@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Define the directories passed to the script
+BUILD_DIR=$1
+CACHE_DIR=$2
+ENV_DIR=$3
+
+# Source the compile script
+source "$(dirname "$0")/compile" "$BUILD_DIR" "$CACHE_DIR" "$ENV_DIR"
+
+# Additional build steps can be added here, for example:
+# - Running additional setup scripts
+# - Performing any pre-deploy optimizations
+
+echo "Build script completed successfully"
