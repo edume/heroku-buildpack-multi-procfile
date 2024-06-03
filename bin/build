@@ -7,6 +7,11 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 
+echo "BUILD DARIO - BUILD_DIR: $BUILD_DIR"
+echo "BUILD DARIO - CACHE_DIR: $CACHE_DIR"
+echo "BUILD DARIO - ENV_DIR: $ENV_DIR"
+
+
 # Source the compile script
 source "$(dirname "$0")/compile" "$BUILD_DIR" "$CACHE_DIR" "$ENV_DIR"
 
