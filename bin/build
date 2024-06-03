@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+source "$(dirname "$0")/compile" "${BUILD_DIR}" "${CACHE_DIR}" "${ENV_DIR}"
